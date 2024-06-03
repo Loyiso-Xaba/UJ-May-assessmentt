@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loyiso Xaba's CV</title>
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f5f5;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      background: #3f51b5;
+      color: white;
+    }
+    .header h2 {
+      margin: 0;
+    }
+    .section {
+      padding: 20px;
+      margin-bottom: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h5 {
+      color: #3f51b5;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact-info p, .contact-info a {
+      margin: 0;
+    }
+    .icon-block {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-        <img src="{{photo}}" alt="" srcset="">
-    <ul>
-        {{#each subjects}}
-        <li>{{this.name}}</li>
-        {{/each}}
-    </ul>
+
+  <div class="header">
+    <h2>Loyiso Xaba</h2>
+    <div class="contact-info">
+      <p>Auckland Park, Johannesburg | Leondale, Germiston</p>
+      <p>(+27) 81 541 8822 | <a href="mailto:Xloyiso@gmail.com" class="white-text">Xloyiso@gmail.com</a></p>
+      <p>Male | Code 10 drivers license</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h5>Candidate Background</h5>
+      <p>A young and highly motivated individual whose skills run beyond just the borders of tertiary education. Very flexible and can adapt to many different situations with the gift of analytical thinking.</p>
+      <p>Very skilled and analytical across many different fields such as technology, marketing, promotions, learning and teaching, whilst able to interlink all learnt experience. Also possess a very strong socialist personality with the right amount of reservation.</p>
+    </div>
+
+    <div class="section">
+      <h5>Education</h5>
+      <p>NSC certificate qualification (Grade 12)<br>
+         BSc Physiology and Psychology degree holder</p>
+    </div>
+
+    <div class="section">
+      <h5>Experience</h5>
+      <ul>
+        <li>Employed by Stats SA for 2022 census population count supervisor (strong statistical and intercommunication skills)</li>
+        <li>Retail supply chain experience as a Cotton On festive season worker (2022-2023)</li>
+        <li>Tutoring services for a matriculant (2021-2022) with Mathematics</li>
+        <li>Currently offering my skills as a sales consultant at Vuse</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h5>Skill Set and Avocation</h5>
+      <ul>
+        <li>Ongoing trading and finance knowledge avocation</li>
+        <li>SQL basics and intermediary</li>
+        <li>Microsoft Excel and Word proficiency</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h5>Soft Skills and Volunteering</h5>
+      <p>Major in Psychology and comprehend a lot of human thought characteristics, effective for team playing optimization.</p>
+      <p>Have taken part in many Non profit organisations schemes</p>
+      <ul>
+        <li>Teaching at a local crèche for ECD purposes (strong psychology base)</li>
+        <li>Administrative work at a local clinic (analytical functioning)</li>
+      </ul>
+      <p>References available upon request</p>
+    </div>
+
+    <div class="section">
+      <h5>Recognition and Acknowledgements</h5>
+      <p>Former deputy head prefect and Valedictorian class of 2019 matriculation</p>
+    </div>
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>

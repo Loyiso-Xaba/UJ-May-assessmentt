@@ -1,12 +1,41 @@
 {
-    "subjects":[
-        {
-            "name":"IsiZulu"
-        },
-        {
-            "name":"IsiXhosa"
-        }
+    "contact_info": {
+      "name": "Loyiso Xaba",
+      "locations": ["Auckland Park, Johannesburg", "Leondale, Germiston"],
+      "phone": "(+27) 81 541 8822",
+      "email": "Xloyiso@gmail.com",
+      "gender": "Male",
+      "license": "Code 10 drivers license"
+    },
+    "candidate_background": [
+      "A young and highly motivated individual whose skills run beyond just the borders of tertiary education. Very flexible and can adapt to many different situations with the gift of analytical thinking.",
+      "Very skilled and analytical across many different fields such as technology, marketing, promotions, learning and teaching, whilst able to interlink all learnt experience. Also possess a very strong socialist personality with the right amount of reservation."
     ],
-
-    "photo":"./pic.png"
-}
+    "education": [
+      "NSC certificate qualification (Grade 12)",
+      "BSc Physiology and Psychology degree holder"
+    ],
+    "experience": [
+      "Employed by Stats SA for 2022 census population count supervisor (strong statistical and intercommunication skills)",
+      "Retail supply chain experience as a Cotton On festive season worker (2022-2023)",
+      "Tutoring services for a matriculant (2021-2022) with Mathematics",
+      "Currently offering my skills as a sales consultant at Vuse"
+    ],
+    "skill_set_and_avocation": [
+      "Ongoing trading and finance knowledge avocation",
+      "SQL basics and intermediary",
+      "Microsoft Excel and Word proficiency"
+    ],
+    "soft_skills_and_volunteering": [
+      "Major in Psychology and comprehend a lot of human thought characteristics, effective for team playing optimization.",
+      "Have taken part in many Non profit organisations schemes"
+    ],
+    "volunteering_details": [
+      "Teaching at a local crèche for ECD purposes (strong psychology base)",
+      "Administrative work at a local clinic (analytical functioning)"
+    ],
+    "recognition_and_acknowledgements": [
+      "Former deputy head prefect and Valedictorian class of 2019 matriculation"
+    ]
+  }
+  
